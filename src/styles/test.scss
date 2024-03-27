@@ -1,0 +1,39 @@
+// BEM selector-class-pattern
+.word_word {
+  color: #000;
+}
+
+// duplicates check
+.a {
+  color: #000;
+}
+.a {
+  color: #000;
+}
+
+// format on save
+.b{color: #000}
+
+// order check
+#id .b {
+  color: #000;
+}
+.b {
+  color: #000;
+}
+
+// format on save
+.c {
+  color: #000;
+  display: block;
+  font: 1em sans-serif;
+  z-index: 2;
+  position: relative;
+  padding: 0;
+  top: 10px;
+}
+
+// check css support
+.d {
+  height: 100dvh;
+}
